@@ -1,3 +1,5 @@
+cls :- write('\33\[2J'). %clear command
+
 %Romeo loves Juliet
 loves(romeo, juliet).
 
@@ -10,3 +12,14 @@ loves(juliet, romeo) :- loves(romeo, juliet).
 loves(me, you).
 loves(you, me) :- loves(me, you).
 
+male(albert).
+male(bob).
+male(bill).
+male(carl).
+male(charlie).
+male(dan).
+male(edward).
+
+female(alice).
+female(betsy).
+female(diana).
